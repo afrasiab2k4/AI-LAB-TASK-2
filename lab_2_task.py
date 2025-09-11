@@ -35,7 +35,7 @@ print(car)
 print(car[1])
 print(car[2])
 car_list = list(car_tuple)
-car[1] = 'Toyota'
+car_list[1] = 'Toyota'
 print("tuple after mods", car_list)
 
 set1 = {1,2,3,4,5}
